@@ -1,0 +1,3 @@
+[submodule "PyGeoTools"]
+	path = PyGeoTools
+	url = https://github.com/karlchu/PyGeoTools.git
