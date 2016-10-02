@@ -35,8 +35,8 @@ $ ./test_picture_location.py ~/Picture/IMG_1234.JPG -37.821638 144.9645348 1
 
 ### Example #2
 
-The following command find all the JPEG pictures in the ```Pictures``` folder that were taken within one kilometer of the Eureka Tower in Melbourne Australia.
+The following command finds all the JPEG pictures in the ```Pictures``` folder that were taken within one kilometer of the Eureka Tower in Melbourne Australia.
 
 ```
-find ~/Pictures -iname '*.jpg' -exec ./test_picture_location.py {} -37.8859748 145.0826936 1 \;
+find ~/Pictures -iname '*.jpg' -exec ./test_picture_location.py {} -37.821638 144.9645348 1 \;
 ```
