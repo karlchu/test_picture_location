@@ -1,5 +1,7 @@
 # test_picture_location
 
+This is a simple python script that uses ```exiftool``` to read the GPS location from an image file and test if it is near a given location within a given radius.
+
 ## Prerequisites
 
 - Python 2.7
